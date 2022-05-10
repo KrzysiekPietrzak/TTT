@@ -1,0 +1,40 @@
+*{
+  margin:3px;
+}
+.playground{
+  display:grid;
+  grid-template-columns: 20% 58% 20%;
+}
+.game-board {
+  margin-left: 25%;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+// for some css stylings
+body {
+  display: flex;
+  justify-content: center;
+}
+#game-pieces-player{
+  visibility: hidden;
+  background-color: lightblue;
+}
+#game-pieces-oppo{
+  visibility: hidden;
+  background-color: yellow;
+}
+div.piece[used="true"]{
+  visibility: hidden;
+}
+p{
+  background-color: red;
+}
+.box {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
